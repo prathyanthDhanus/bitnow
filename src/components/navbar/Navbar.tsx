@@ -23,8 +23,8 @@ export function Navbar({ className, cta }: NavbarProps) {
 
   return (
     <header
-      className={cn(
-        "sticky top-0 z-40 w-full",
+       className={cn(
+        "sticky  w-full bg-transparent transition-all duration-300 ",
         className
       )}
     >
@@ -41,10 +41,10 @@ export function Navbar({ className, cta }: NavbarProps) {
               key={item.href}
               to={item.href}
               className={cn(
-                "text-sm font-medium transition-colors hover:text-primary",
+                "text-md font-medium transition-colors hover:text-primary",
                 location.pathname === item.href
                   ? "text-primary"
-                  : "text-muted-foreground"
+                  : "text-[#D7F5FF]"
               )}
             >
               {item.title}

@@ -1,7 +1,9 @@
+import Hero from "./Hero";
+
 const LandingPage = ()=>{
     return (
         <>
-        <p>Landing</p>
+       <Hero/>
         </>
     )
 }
