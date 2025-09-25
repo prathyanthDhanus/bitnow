@@ -10,7 +10,7 @@ const baseStyles = {
   H6R: "text-lg font-normal leading-[27px]", //✔︎
   H7: "text-base leading-6 font-medium",
   Body1R: "text-[20px] font-normal leading-6", //✔︎
-  Body1B: "text-base font-bold leading-6", //✔︎
+  Body1B: "text-[20px] font-bold leading-6", //✔︎
   Body2R: "text-sm font-normal leading-[21px]", //✔︎
   Body2R1: "text-[18px] font-normal leading-[21px]", //✔︎
   Body2B: "text-sm font-bold leading-[21px]", //✔︎
