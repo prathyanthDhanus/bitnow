@@ -2,16 +2,17 @@ import React from "react";
 
 const baseStyles = {
   H1: "text-[64px]  leading-[45px]", //✔︎
-  H2: "text-[32px] font-bold leading-10 ", //✔︎
+  H2: "text-[40px]  leading-10 ", //✔︎
   H3: "text-2xl leading-9 font-medium",
   H4: "text-2xl leading-8 font-medium",
   H5: "text-xl font-bold leading-[30px]", //✔︎
   H6: "text-lg font-bold leading-[27px]", //✔︎
   H6R: "text-lg font-normal leading-[27px]", //✔︎
   H7: "text-base leading-6 font-medium",
-  Body1R: "text-base font-normal leading-6", //✔︎
+  Body1R: "text-[20px] font-normal leading-6", //✔︎
   Body1B: "text-base font-bold leading-6", //✔︎
   Body2R: "text-sm font-normal leading-[21px]", //✔︎
+  Body2R1: "text-[18px] font-normal leading-[21px]", //✔︎
   Body2B: "text-sm font-bold leading-[21px]", //✔︎
   Body3R: "text-xs font-normal leading-[18px]", //✔︎
   Body3B: "text-xs font-bold leading-[18px]", //✔︎
@@ -41,6 +42,7 @@ const Typography = {
   B1R: createComponent("p", baseStyles.Body1R),
   B1B: createComponent("p", baseStyles.Body1B),
   B2R: createComponent("p", baseStyles.Body2R),
+  B2R1: createComponent("p", baseStyles.Body2R1),
   B2B: createComponent("p", baseStyles.Body2B),
   B3R: createComponent("p", baseStyles.Body3R),
   B3B: createComponent("p", baseStyles.Body3B),

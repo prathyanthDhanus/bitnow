@@ -33,10 +33,12 @@ const Hero = () => {
               jokichn na <span>Lorem Ipsum</span>
             </Typography.H1>
 
-         <div className="flex  items-center gap-5 py-5">
-               <Button className="text-md hover:cursor-pointer">Learn More</Button>
-               <Typography.B1B>Watch Video</Typography.B1B>
-         </div>
+            <div className="flex  items-center gap-5 py-5">
+              <Button className="text-md hover:cursor-pointer">
+                Learn More
+              </Button>
+              <Typography.B1B>Watch Video</Typography.B1B>
+            </div>
           </div>
         </div>
       </div>

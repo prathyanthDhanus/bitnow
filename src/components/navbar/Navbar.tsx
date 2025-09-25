@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils";
 import { navbarStructure } from "./structure";
 
 import logo from "@/assets/bitcoin-coin-logo.png";
+import Typography from "../typography/Typography";
 
 interface NavbarProps {
   logo: React.ReactNode;
@@ -23,7 +24,7 @@ export function Navbar({ className, cta }: NavbarProps) {
 
   return (
     <header
-       className={cn(
+      className={cn(
         "sticky  w-full bg-transparent transition-all duration-300 ",
         className
       )}
@@ -31,7 +32,10 @@ export function Navbar({ className, cta }: NavbarProps) {
       <div className="container flex h-16 items-center justify-between px-4">
         {/* Logo */}
         <Link to="/">
-          <img src={logo} alt="bitnow logo" className="h-8 w-auto" />
+          <div className="flex justify-center items-center text-[#D7F5FF] px-10 gap-3">
+            <img src={logo} alt="bitnow logo" className="h-9w-auto" />
+            <Typography.H2 className="!text-3xl">Bitnow</Typography.H2>
+          </div>
         </Link>
 
         {/* Desktop Navigation */}
